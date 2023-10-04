@@ -1,0 +1,42 @@
+body.dark-mode {
+    --bg-opacity: 1;
+    background-color: #1a202c;
+    background-color: rgba(26, 32, 44, var(--bg-opacity));
+    color: #d3d5f3;
+}
+
+.card-body {
+    background-color: #152232;
+    border-radius: 15px !important;
+}
+
+img.card-img-top.imghomewelcome {
+    border-radius: 25px;
+}
+
+.sticky-footer {
+    background-color: #152232;
+    color: #fff
+}
+
+hr.gariss {
+    border-top: 1px solid white;
+}
+.sticky-footer a {
+    color: #fff
+}
+
+.gradient {
+    width: -webkit-fill-available; 
+    height: auto; 
+    border-radius: 100%;
+    background: linear-gradient(to right, red, orange);
+    padding: 2px;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: white;
+}
